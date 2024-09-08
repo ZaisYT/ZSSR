@@ -1,0 +1,21 @@
+1. Ejecuta el archivo: "iniciar.bat"
+2. Acepta el firewall de windows
+3. Inicia sesion con spotify en la ventana que se abrio (Tienes que tener Spotify Premium)
+	- Si no se abrio la ventana automaticamente, abre la direccion "http://localhost:3000/login" en tu navegador
+4. Deja la consola de comandos abierta.
+5. Disfruta :p.
+
+NOTAS:
+La consola debe permanecer abierta para que funcione.
+Si cierras la consola vas a tener que iniciar sesion denuevo.
+El uso del api de spotify solo funciona con usuarios premium.
+A veces el bot se equivoca y pone canciones que no son, preocura revisar bien lo que se pone.
+El programa al hacer peticiones consume un poco el internet si se ponen muchas canciones a la vez. (Nada de que preocuparse, pero es bueno saberlo)
+
+COMO FUNCIONA:
+Al iniciar la consola, se activa un servidor de datos de twitch, que va a estar leyendo los mensajes en tu chat.
+Si detecta el comando "!sr" buscará el nombre de la canción en youtube, luego obtendra los principales artistas junto con el nombre, y los buscará en spotify
+Si encuentra algún resultado, lo añadirá a tu cola de reproducción.
+
+
+
